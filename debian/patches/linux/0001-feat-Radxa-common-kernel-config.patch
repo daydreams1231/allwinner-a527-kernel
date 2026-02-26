@@ -412,7 +412,7 @@ index 000000000000..f5bca1bdaf69
 +CONFIG_OVERLAY_FS=m
 +CONFIG_UDF_FS=n
 +CONFIG_NTFS_FS=n
-+CONFIG_NTFS_RW=y
++CONFIG_NTFS_RW=n
 +
 +# Support network filesystem
 +CONFIG_NFS_V4_1=y
@@ -522,7 +522,7 @@ index 000000000000..f5bca1bdaf69
 +CONFIG_MSDOS_FS=m
 +CONFIG_VFAT_FS=m
 +CONFIG_EXFAT_FS=m
-+CONFIG_NTFS_FS=n
++CONFIG_NTFS3_FS=m
 +CONFIG_FUSE_FS=m
 +
 +# Enable graphic drivers
